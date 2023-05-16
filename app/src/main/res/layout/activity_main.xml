@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="Стоимость всех билетов:"
+        android:gravity = "center_vertical"
+        android:paddingLeft="14dp"
+        android:textSize="19sp"
+        android:textColor="#119595"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constrainTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/busTicketAllOut"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:text="Вывод стоимости всех билетов:"
+        android:gravity = "center"
+        android:background="#C1E9F3"
+        android:textSize="19sp"
+        android:textColor="#119595"
+        android:textColorHint="#47BABA"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
