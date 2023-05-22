@@ -2,6 +2,7 @@ package com.example.homework3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import entity.BusTicket;
 import entity.BusTicketChild;
@@ -22,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         busTicketAllOut = findViewById(R.id.busTicketAllOut);
 
-        busTicketAllOut.setText(Float.toString(f: busTicket.ticketPriceAll() + busTichetChild.ticketPriceAll() + busTicketGrand.ticketPriceAll()) + "монет");
+        busTicketAllOut.setText(Float.toString(busTicket.ticketPriceAll() + busTicketChild.ticketPriceAll() + busTicketGrand.ticketPriceAll()) + "монет");
     }
 }

@@ -17,15 +17,15 @@
         android:textColor="#119595"
         android:textStyle="bold"
         android:layout_marginTop="25dp"
-        app:layout_constraintTop_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constrainTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/busTicketAllOut"
         android:layout_width="380dp"
         android:layout_height="100dp"
-        android:text="Вывод стоимости всех билетов:"
+        android:hint="Вывод стоимости всех билетов:"
         android:gravity = "center"
         android:background="#C1E9F3"
         android:textSize="19sp"
@@ -33,8 +33,8 @@
         android:textColorHint="#47BABA"
         android:textStyle="bold"
         android:layout_marginTop="25dp"
-        app:layout_constraintTop_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>
