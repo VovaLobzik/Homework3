@@ -4,9 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import entity.BusTicket;
-import entity.BusTicketChild;
-import entity.BusTicketGrand;
+import com.example.homework3.entity.BusTicket;
+import com.example.homework3.entity.BusTicketChild;
+import com.example.homework3.entity.BusTicketGrand;
+
 
 public class MainActivity extends AppCompatActivity {
 

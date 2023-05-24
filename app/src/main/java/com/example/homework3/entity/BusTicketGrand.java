@@ -1,6 +1,6 @@
-package entity;
+package com.example.homework3.entity;
 
-public class BusTicketGrand extends BusTicket{
+public class BusTicketGrand extends BusTicket {
 
     private byte ticketDiscount;
 

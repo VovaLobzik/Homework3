@@ -1,7 +1,6 @@
-package entity;
+package com.example.homework3.entity;
 
 public class BusTicket {
-
     //поля
     private String category;
     private short ticketOfNumber;
